@@ -2,7 +2,7 @@
 
 Research code accompanying the paper **“Core Detection via Global Entropy, Local Entropy and Cohesion Flows on Weighted Graphs.”**
 
-This repository contains implementations of global entropy flow (GEF), local entropy flow (LEF), cohesion flow (CF), and the **data-driven core extraction procedure (Method A)**, together with scripts used for numerical experiments. The method evolves edge weights, removes high-weight edges, collects the non-isolated vertices, induces their subgraph **in the original graph**, and returns its largest connected component.
+This repository contains implementations of global entropy flow (GEF), local entropy flow (LEF), cohesion flow (CF), and the core extraction procedure, together with scripts used for numerical experiments. The method evolves edge weights, removes high-weight edges, collects the non-isolated vertices, induces their subgraph **in the original graph**, and returns its largest connected component.
 
 **Scope:** The repository does not include the benchmark network files or the original third-party Ricci-flow code. Download those separately (and observe their respective licenses). The example commands below show how to run the supplied scripts; exact reproduction of published numerical tables also requires the same input graph preprocessing and parameters.
 
